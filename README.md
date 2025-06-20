@@ -1,46 +1,32 @@
-# Getting Started with Create React App
+# UI Playground
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern component playground built with **React**, **Storybook**, and **Tailwind CSS**.  
+Designed to prototype, document, and test UI components in isolation with live preview, visual regression testing, and design tokens.
 
-## Available Scripts
+## ✨ Features
 
-In the project directory, you can run:
+- ⚛️ React component library (TypeScript)
+- 🎨 Styled with Tailwind CSS
+- 📚 Documented using Storybook
+- 🧪 Interactive stories with Storybook Testing Library
+- 🧩 Design token support + custom docs blocks
+- 🌓 Light & dark background toggling
+- 🔍 Supports play functions for testing
+- 💡 Shimmer loading effect demo
 
-### `npm start`
+## 📦 Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React (TypeScript)
+- Storybook 9 (with Webpack 5)
+- Tailwind CSS
+- `@storybook/testing-library` for story interactions
+- `@storybook/addon-themes` and `@storybook/addon-docs` for customization
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🧪 Run Locally
 
-### `npm test`
+```bash
+# Install dependencies (recommended with legacy peer deps to avoid Storybook 9 conflicts)
+npm install --legacy-peer-deps
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Run Storybook
+npm run storybook
